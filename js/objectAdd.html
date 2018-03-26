@@ -1,0 +1,26 @@
+<html>
+<head>
+<title> object addition </title>
+
+<script type="text/javascript">
+
+    function people(name,age){
+        this.name = name;
+        this.age = age;
+        this.yearToRetire = retire;
+    }
+
+    function retire(){
+        toRetire = 65-this.age;
+        return toRetire;
+    }
+    var natalie = new people("Natalie Portman", 36);
+</script>
+</head>
+
+<body>
+<script type = "text/javascript">
+  document.write(natalie.yearToRetire());
+</script>
+</body>
+</html>
